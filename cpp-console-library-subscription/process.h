@@ -19,6 +19,7 @@ void merge(roseWind* array[], int left, int mid, int right, bool (*compare)(rose
 // Функция сортировки слиянием
 void merge_sort(roseWind* array[], int left, int right, bool (*compare)(roseWind*, roseWind*));
 
-int process();
+
+double average_wind_speed_by_month(roseWind* array[], int size, int month);
 
 #endif

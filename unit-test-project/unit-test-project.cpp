@@ -1,5 +1,7 @@
 #include "pch.h"
 #include "CppUnitTest.h"
+#include "../cpp-console-library-subscription/roseWind.h"
+#include "../cpp-console-library-subscription/process.h"
 
 using namespace Microsoft::VisualStudio::CppUnitTestFramework;
 
