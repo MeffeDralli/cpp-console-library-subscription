@@ -94,3 +94,7 @@ void merge_sort(roseWind* array[], int left, int right, bool (*compare)(roseWind
         merge(array, left, mid, right, compare);
     }
 }
+
+int process() {
+    return 0;
+}

@@ -4,7 +4,7 @@
 #include "file_reader.h"
 #include "filter.h"
 #include "process.h"
-#include "dataProcessing.h"
+
 
 using namespace std;
 
@@ -104,10 +104,8 @@ int main() {
     std::cout << "¬ведите номер мес€ца дл€ вычислени€ средней скорости ветра: ";
     std::cin >> chosen_month;
 
-    double avg_speed = average_wind_speed_by_month(results, size, chosen_month);
-    if (avg_speed != 0.0) {
-        std::cout << "—редн€€ скорость ветра в выбранном мес€це: " << std::fixed << std::setprecision(2) << avg_speed << std::endl;
-    }
+   
+
 
     // ќсвобождение пам€ти
     for (int i = 0; i < size; i++) {
