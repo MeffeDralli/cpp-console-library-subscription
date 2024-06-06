@@ -10,6 +10,8 @@ int main()
     cout << "Laboratory work #4. GIT\n";
     cout << "Variant #6. Roza Vetrov\n";
     cout << "Author: Polina Pristavko <3 \n";
+    cout << "Group: XXIIIAI1d\n";
+
     book_subscription* subscriptions[MAX_FILE_ROWS_COUNT];
     int size;
     try
@@ -68,5 +70,6 @@ int main()
     {
         cout << error << '\n';
     }
+
     return 0;
 }
